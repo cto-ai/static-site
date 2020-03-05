@@ -27,17 +27,17 @@ To set secrets, run:
 ops secrets:set
 ```
 
-Follow the prompts and enter in the name of the key and its value. This will save the secret so it can be accessed the next time you use the Op.
+Follow the prompts and enter in the name of the key and its value. This will save the secret so it can be accessed the next time you use the Op. 
 
-This will set the secret to the team which you're currently on (The default is your personal team which is the same as your username). You can also check which team you're currently on by running:
+This will set the secret to the team which you're currently on (The default is your personal team which is the same as your username). You can also check which team you're currently on by running:  
 
 ```bash
 ops whoami
 ```
 
-In order to use the secrets you just set, the Op needs to be published to this team.
+In order to use the secrets you just set, the Op needs to be published to this team. 
 
-To run the public version of the Op in the terminal, enter in:
+To run the public version of the Op in the terminal, enter in: 
 
 ```bash
 ops run @cto.ai/static-site
@@ -46,12 +46,12 @@ ops run @cto.ai/static-site
 To run the public version of the Op in a public Slack channel:
 
 ```bash
-ops run cto.ai/repo
+ops run cto.ai/static-site
 ```
 
 ## Local Development / Running from Source
 
-**1. Clone the repo:**
+**1. Clone the static-site:**
 
 ```bash
 git clone <git url>
@@ -77,8 +77,8 @@ ops publish .
 To run the Op in Slack, make sure that you have the [CTO.ai Bot](https://cto.ai/platform) installed
 in your Slack workspace.
 
-To run the Op in a Slack channel, enter:
-`/ops run static-site`
+To run the Op in a Slack channel, enter: 
+`/ops run static-site` 
 
 ## Debugging Issues
 
@@ -88,7 +88,7 @@ When submitting issues or requesting help, be sure to also include the version i
 ops -v
 ```
 
-You can reach us at the [CTO.ai Community Slack](https://cto-ai-community.slack.com/) or email us at support@cto.ai.
+You can reach us at the [CTO.ai Community Slack](https://cto-ai-community.slack.com/) or email us at support@cto.ai. 
 
 ## AWS Documents
 
