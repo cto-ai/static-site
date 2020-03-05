@@ -46,12 +46,12 @@ ops run @cto.ai/static-site
 To run the public version of the Op in a public Slack channel:
 
 ```bash
-ops run cto.ai/repo
+ops run cto.ai/static-site
 ```
 
 ## Local Development / Running from Source
 
-**1. Clone the repo:**
+**1. Clone the static-site:**
 
 ```bash
 git clone <git url>
