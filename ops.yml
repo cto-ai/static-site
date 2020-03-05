@@ -1,0 +1,11 @@
+version: "1"
+commands:
+  - name: static-site:0.1.14
+    public: true
+    description: This Op deploys a static site to a public S3 bucket
+    run: python3 /ops/src/main.py
+    remote: true
+    sdk: "2"
+    sourceCodeURL: "https://github.com/cto-ai/static-site"
+    help:
+      usage: "ops run static-site"
