@@ -1,4 +1,4 @@
-![](assets/banner.png)
+![](https://cto.ai/static/oss-banner.png)
 
 # Deploying S3 Static Site Deployment
 
